@@ -1,0 +1,13 @@
+.env
+.venv/
+.deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.bandit
+instance/
+reports/
+snyk-report.json
+*.sqlite
+*.sqlite3
+
