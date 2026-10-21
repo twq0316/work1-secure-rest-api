@@ -163,6 +163,8 @@ and pull request. Save a screenshot of the successful workflow under
 ## CVE laboratory
 
 The selected vulnerability and the exact reproduction/fix procedure are in
-`cve/CVE-2021-41773/README.md`. The `cve/CVE-2021-41773/fix/` directory contains
-the configuration changes to attach to the final submission.
+`cve/CVE-2019-14234/README.md`. CVE-2019-14234 is a SQL injection vulnerability
+in Django JSONField/HStoreField lookups affecting versions before 2.2.4,
+2.1.11, and 1.11.23. The `cve/CVE-2019-14234/fix/` directory contains the
+patched Compose configuration to attach to the final submission.
 
